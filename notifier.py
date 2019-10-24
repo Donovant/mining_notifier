@@ -170,8 +170,6 @@ def message():
         error = '{}, Line {}'.format(exc_type, exc_tb.tb_lineno)
         log.error(error)
         print(error)
-    # log_msg = 'Success'
-    # log.info(log_msg)
 
 
 if __name__ == '__main__':
